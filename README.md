@@ -5,6 +5,8 @@ docker build -t debug_raven:latest .
 docker run --rm -it debug_raven sh
 ```
 
+Inside container:
+
 ```
 export FLASK_APP=service/__init__.py
 export FLASK_DEBUG=1
