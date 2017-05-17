@@ -18,3 +18,7 @@ flask run
  * Restarting with stat
 Segmentation fault
 ```
+
+If the following line is removed from `service/__init__.py` then the segmentation fault goes away:
+
+`from raven.contrib.flask import Sentry`
