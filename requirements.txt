@@ -1,0 +1,4 @@
+gunicorn==19.7.1
+Flask==0.12
+raven[flask]==6.0.0
+requests==2.14.2
